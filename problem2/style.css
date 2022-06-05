@@ -1,0 +1,338 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'popons', sans-serif;
+    background-color: rgb(27,27,27);
+    overflow-x: hidden;
+}
+
+.header{
+    height: 90vh;
+    position: relative;
+}
+
+.navbar{
+    height: 11rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.0rem;
+    z-index: 10;
+    position:fixed;
+}
+
+.navbar-box{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.heading-tertiary{
+    font-size: 3.5rem;
+}
+
+.navbar-list{
+    list-style:none;
+    font-size: 2rem;
+}
+
+.navbar-item{
+    display: inline-block;
+}
+
+.navbar-link:visited,
+.navbar-link:link{
+    text-decoration: none;
+    color: white;
+    padding: .3rem;
+    transition: all .2s ease;
+}
+
+.navbar-link:hover{
+    background-color: #b13b08;
+    color: white;
+   
+}
+
+.navbar-link-book:visited,
+.navbar-link-book:link{
+    text-decoration: none;
+    color: white;
+    padding: .2rem 3.5rem;
+    border: 1px solid #5D6D7E;
+    border-radius: 30rem;
+    box-shadow: 0 0 1rem rgba(236, 118, 40, .5);
+    text-shadow: 0 .3rem 1rem rgba(255,255,255, .5);
+    transition: all .4s ease;
+}
+
+.navbar-link-book:hover{
+    background-color:#5D6D7E;
+    color: white;
+    
+}
+
+.toggle{
+    height: .5rem;
+    width: .5rem;
+    display: none;
+}
+
+.toggle div{
+    height: .4rem;
+    width: 100%;
+    background-color: white;
+    margin: .1rem;
+}
+
+.header-container{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.header-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.heading-primary{
+   margin-top:1rem;
+    font-size: 6.5rem;
+    font-weight: 600;
+    letter-spacing: .3rem;
+}
+
+#restaurant{
+    color: #fff;
+    font-weight: 800;
+    font-size: 8rem;
+}
+
+.lead{
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: .4rem;
+}
+
+
+.book-now{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    border: 1px solid white;
+    border-radius: 10rem;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 1rem 1rem rgba(240,107,55, .1);
+    text-shadow: 0 1rem 1rem rgba(0,0,0,.6);
+}
+
+.book-now:hover{
+    background-color: #5D6D7E;
+    border: 1px solid white;
+    box-shadow: 0 0 2rem #5d6d7e71;
+}
+
+/* MENU */
+
+.menu{
+    width: 100%;
+    padding: 10rem 5rem;
+    background-image: linear-gradient(to right bottom, #5D6D7E, rgba(255,0,0,.5));
+}
+
+.menu-heading{
+    font-size: 12rem;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0,0,0,.9);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-rows:repeat(2, 1fr) ;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    grid-gap: 2rem;
+}
+
+.heading-secondary{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.menu-img{
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    background-image: url("img/pizza.jpg");
+}
+
+.menu-container{
+    width: 100%;
+    height: 50rem;
+    background-color: white;
+    border-radius: 8rem;
+    overflow: hidden;
+    box-shadow: 0 0 .2rem rgba(0,0,0,.2);
+    transition: all .4s ease;
+}
+
+.menu-container:hover{
+    box-shadow: 0 0 .5rem rgba(0,0,0,.4);
+    transform: scale(1.07);
+}
+
+.menu-p{
+    font-size: 1.4rem;
+    padding: .1rem;
+    text-align: center;
+}
+
+.menu-title{
+    font-size: .3rem;
+    text-align: center;
+}
+
+.price{
+    font-size: 3rem;
+    margin-top: .1rem;
+    text-align: center;
+    color: #5D6D7E;
+    text-shadow: 0 .4rem 2rem rgba(0,0,0,.4);
+}
+.aboutheading{
+    font-size: 12rem;
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0,0,0,.9);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+.hrstyle{
+    color: white;
+}
+.aboutcard{
+    height: 20rem;
+    width: 90rem;
+    align-items: center;
+    justify-content: center;
+   margin-left: 45rem ;
+   margin-top: 5rem;
+   border-radius: 5rem;
+   background-color: rgba(255, 228, 196, 0.144);
+   transition: all .4s ease;
+  
+}
+.aboutcard:hover{
+    transform: scale(1.5);
+    background-color: white;
+   
+   
+}
+/* .aboutuspara{
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    
+   
+} */
+.footer{
+    margin-top: 2rem;
+    width: 100%;
+    height: 10rem;
+    background-color: grey;
+}
+.center{
+    position: relative;
+}
+.aboutuspara h4 h3{
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.aboutuspara {
+    padding: 2rem;
+    margin:1.5rem
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px){
+    html {
+        font-size: 17.5%;
+    }
+    .navbar-list {
+        font-size: 4rem;
+    }
+    .navbar-box{
+        width: 100%;
+    }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px)and (max-width: 768px) {
+    html{
+        font-size: 19%;
+    }
+    .navbar{
+        padding: 0px 27rem;
+    }
+    .menu-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+   
+
+}
+/* For Laptop or small-size screen: */
+@media(min-width:482px)and(max-width:1024px){
+    html{
+        font-size: 20%;
+    }
+    .navbar{
+        padding: 0px 27rem;
+    }
+}

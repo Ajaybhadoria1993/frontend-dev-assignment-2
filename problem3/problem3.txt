@@ -1,0 +1,19 @@
+## Problem 3:-
+Create an Event Website. You can make a static page holding an event or conference. 
+People who are interested in attending the conference create a register button for them. 
+Mention different links for speaker, venue and schedule at the top in the header section. 
+Describe the purpose of the conference or the category of people who can get benefit from 
+this conference. Add an introduction and images of the speaker, venue detail and the main
+purpose of the conference on your webpage. Divide the page into sections, add header and 
+footer showcasing the menu. Use proper background color that can go well with each other 
+for various sections. Choose a decent font style and font color that matches the theme of 
+your web page.
+
+
+1.  static page
+2.   create a register button
+3.   Mention different links for speaker, venue and schedule at the top in the header section.
+4.   Add an introduction and images of the speaker, venue detail and the main
+5.    purpose of the conference on your webpage.
+6.    Divide the page into sections, add header and 
+7.    footer showcasing the menu.

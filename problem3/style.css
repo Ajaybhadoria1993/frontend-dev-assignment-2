@@ -1,0 +1,227 @@
+body{
+    background-color: rgba(225, 225, 225, 0.853);;
+}
+.nabvar,ul,li{
+    display: flex;
+    justify-content:space-around;
+}
+.afternav-bigbox{
+   background-image: url("./backgrounddrawing.jpg");
+    width: 100%;
+    height: 50rem;
+}
+.style-afternav-bigbox{
+    padding: 2rem;
+}
+.containerforsecondbigbox{
+    background-image: url("./backgrounddrawing.jpg");
+    width: 100%;
+    height: 20rem;
+    
+}
+.second-bigbox{
+    padding: 2rem;
+    position: relative;
+}
+
+.third-bigbox{
+    padding: 2rem;
+}
+.containerforthirdbigbox{
+    background-color: rgba(225, 225, 225, 0.853);
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    
+}
+
+.image1{
+    background-image: url("./01galleyimage.jpg");
+    height: 500px;
+    width: 250px;
+   margin: 4rem;
+}
+.image2{
+    background-image: url("./02galleryimage.jpg");
+    height: 500px;
+    width: 250px;
+}
+.navbar{
+    background-image: url("./backgrounddrawing.jpg");
+    position: fixed;
+    width: 100%;
+}
+.heading-first {
+    margin-left: 468px;
+    margin-top: 227px;
+    font-size: 28px;
+    
+}
+.heading-second{
+    margin-left:297px;
+    font-size: 40px;
+    margin-top: -53px;
+}
+.small-heading{
+    margin-left: 581px;
+}
+.small-heading-location{
+    margin-left: 580px;
+}
+.buy-ticket-button-bigbox{
+    margin-left: 574px;
+   
+   
+} 
+.buy-ticket-button-bigbox button{
+    border-radius: 5px;
+    
+}
+.first{
+    padding: 4px;
+
+}
+.box2contatent{
+    position: absolute;
+    margin-left: 457px;
+    margin-top: 47px;
+   
+}
+.box2contatent1{
+    position: absolute;
+    margin-left: 438px;
+    margin-top: 86px;
+}
+.box2contatent2{
+    position: absolute;
+    margin-left: 347px;
+    margin-top: 139px;
+    width: 552px;
+}
+.side-image-box-mainContainer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(241, 241, 247);
+    
+}
+.sideimg{
+    background-image: url("./sideimage.jpg");
+    height: 500px;
+    width:800px;
+}
+.side-image-box{
+    display: flex;
+}
+.side-image-box-paragraph{
+    padding: 77px;
+}
+.bigbottomimg{
+   
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url("./Untitled.jpg");
+}
+.artist-main{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 70px;
+}
+.artistImage{
+    background-image: url("./artist.jpg");
+    height:500px;
+    width:488px;
+   
+}
+.artistdescription{
+  margin-left: 20px;
+}
+.artist-about{
+    margin-left: 125px;
+    color: brown;
+}
+.creator{
+    margin-left: 125px;
+
+}
+.paraartist{
+width: 458px;
+margin-left:100px;
+}
+.paraartist1{
+    margin-left: 88px;
+}
+.popularartwork{
+    font-size: 33px;
+}
+.someworks{
+    margin-left: 48px;
+
+}
+.workgallery{
+    width: 100%;
+    height: 500px;
+}
+
+.galleryimage1{
+    background-image: url(./01.jpg);
+    height:500px;
+    width: 430px;
+}
+
+.gridofwork{
+    display: flex;
+    width: 100%;
+}
+.darkness{
+    margin-left:158px;
+}
+.artistsaid{
+    margin-left:158px ;
+    width: 520px;
+}
+.galleryimage2{
+    background-image: url(./02.jpg);
+    height:500px;
+    width: 430px;
+}
+.galleryimage3{
+    background-image: url(./03.jpg);
+    height:500px;
+    width: 430px;
+}
+.linav{
+    text-decoration: none;
+}
+.dateandlocation-main{
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+}
+.datendloctn{
+    margin-left: 159px;
+    position: absolute;
+    margin-top: 67px;
+}
+.datendloctn1{
+    margin-left: 685px;
+    position: absolute;
+    margin-top: 64px;
+}
+.contact{
+    background-image: url("./backgrounddrawing.jpg");
+    width: 100%;
+    height: 500px;
+    margin-top: 742px;
+}
+.grid{
+    background-image: url("./backgrounddrawing.jpg");
+    display: flex;
+}
+.left{
+margin-left: 120px;
+}
+.right{
+    margin-left: 500px;
+}
